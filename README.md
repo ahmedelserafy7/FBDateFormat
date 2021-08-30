@@ -2,12 +2,17 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-5-orange.svg" />
-    <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
+    <img src="https://img.shields.io/badge/version-1.0.1-blue.svg" />
     <img src="https://img.shields.io/cocoapods/l/MyCocoapodsLibrary.svg" />
     <img src="https://img.shields.io/cocoapods/p/MyCocoapodsLibrary.svg" />
 </p>
 
-Welcome to FBDateFormat, an algorithmic library that helps developers use Facebook date format in thier application with hassle-free conversion.
+
+<p align="center">
+  <img src="https://i.imgur.com/0UCgRum.gif" alt="fbdateformat">
+</a>
+
+Welcome to FBDateFormat, an algorithmic library. I've built this library to help developers use Facebook date format in thier application with hassle-free conversion.
 
 ## Installation
 
