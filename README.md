@@ -11,6 +11,18 @@ Welcome to FBDateFormat, an algorithmic library that helps developers use Facebo
 
 ## Installation
 
+### Using the Swift Package Manager
+
+FBDateFormat is distributed using the [Swift Package Manager](https://swift.org/package-manager). To install it into a project, go to file -> Swift Packages -> add it as a package dependency, then enter a package repository url which is `https://github.com/ahmedelserafy7/FBDateFormat.git`, click next and one more next, and finish.
+
+Then import FBDateFormat wherever you’d like to use it:
+
+```swift
+import FBDateFormat
+```
+
+### CocoaPods
+
 You can use [CocoaPods](https://cocoapods.org) by adding the following line to your `Podfile`:
 
 ```ruby
