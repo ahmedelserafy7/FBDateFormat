@@ -1,0 +1,6 @@
+framework module FBDateFormat {
+  umbrella header "FBDateFormat-umbrella.h"
+
+  export *
+  module * { export * }
+}

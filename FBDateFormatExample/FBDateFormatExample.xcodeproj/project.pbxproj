@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169FB05726DD2CE300C463CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FB05626DD2CE300C463CC /* AppDelegate.swift */; };
+		169FB05926DD2CE300C463CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FB05826DD2CE300C463CC /* SceneDelegate.swift */; };
+		169FB05B26DD2CE300C463CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FB05A26DD2CE300C463CC /* ViewController.swift */; };
+		169FB05E26DD2CE300C463CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169FB05C26DD2CE300C463CC /* Main.storyboard */; };
+		169FB06026DD2CE800C463CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169FB05F26DD2CE800C463CC /* Assets.xcassets */; };
+		169FB06326DD2CE800C463CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169FB06126DD2CE800C463CC /* LaunchScreen.storyboard */; };
+		169FB06E26DD2CE800C463CC /* FBDateFormatExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FB06D26DD2CE800C463CC /* FBDateFormatExampleTests.swift */; };
+		169FB07926DD2CE900C463CC /* FBDateFormatExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FB07826DD2CE900C463CC /* FBDateFormatExampleUITests.swift */; };
+		8696863B9F09AA52917B08F9 /* Pods_FBDateFormatExample_FBDateFormatExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431288E6BF47D85B9CF62D1B /* Pods_FBDateFormatExample_FBDateFormatExampleUITests.framework */; };
+		C987357FAE7B2281A73C6E30 /* Pods_FBDateFormatExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9FE0A03F02793A6BA8B391 /* Pods_FBDateFormatExample.framework */; };
+		CAA5819897B90D769A50827D /* Pods_FBDateFormatExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29108B4C6FF322BAF0AE2C3B /* Pods_FBDateFormatExampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169FB06A26DD2CE800C463CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169FB04B26DD2CE300C463CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169FB05226DD2CE300C463CC;
+			remoteInfo = FBDateFormatExample;
+		};
+		169FB07526DD2CE900C463CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169FB04B26DD2CE300C463CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169FB05226DD2CE300C463CC;
+			remoteInfo = FBDateFormatExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169FB05326DD2CE300C463CC /* FBDateFormatExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBDateFormatExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169FB05626DD2CE300C463CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		169FB05826DD2CE300C463CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		169FB05A26DD2CE300C463CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		169FB05D26DD2CE300C463CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		169FB05F26DD2CE800C463CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169FB06226DD2CE800C463CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		169FB06426DD2CE800C463CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169FB06926DD2CE800C463CC /* FBDateFormatExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBDateFormatExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169FB06D26DD2CE800C463CC /* FBDateFormatExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBDateFormatExampleTests.swift; sourceTree = "<group>"; };
+		169FB06F26DD2CE800C463CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169FB07426DD2CE900C463CC /* FBDateFormatExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBDateFormatExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169FB07826DD2CE900C463CC /* FBDateFormatExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBDateFormatExampleUITests.swift; sourceTree = "<group>"; };
+		169FB07A26DD2CE900C463CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29108B4C6FF322BAF0AE2C3B /* Pods_FBDateFormatExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBDateFormatExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3069EB7C902AE2DA92979C1B /* Pods-FBDateFormatExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDateFormatExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-FBDateFormatExampleTests/Pods-FBDateFormatExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34E366366E79AF3654DC07B2 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		431288E6BF47D85B9CF62D1B /* Pods_FBDateFormatExample_FBDateFormatExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBDateFormatExample_FBDateFormatExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD9EEF8E298DBA859F7CC41 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9049B1CB66E4F596A1B08E9 /* Pods-FBDateFormatExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDateFormatExample.release.xcconfig"; path = "Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample.release.xcconfig"; sourceTree = "<group>"; };
+		AC9FE0A03F02793A6BA8B391 /* Pods_FBDateFormatExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBDateFormatExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C054C8A094502186DF7C83CC /* Pods-FBDateFormatExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDateFormatExample.debug.xcconfig"; path = "Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample.debug.xcconfig"; sourceTree = "<group>"; };
+		DC9E8B2846FADDBCE8ABB064 /* Pods-FBDateFormatExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBDateFormatExampleTests.release.xcconfig"; path = "Target Support Files/Pods-FBDateFormatExampleTests/Pods-FBDateFormatExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169FB05026DD2CE300C463CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C987357FAE7B2281A73C6E30 /* Pods_FBDateFormatExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FB06626DD2CE800C463CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA5819897B90D769A50827D /* Pods_FBDateFormatExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FB07126DD2CE900C463CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8696863B9F09AA52917B08F9 /* Pods_FBDateFormatExample_FBDateFormatExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EC4165A738D88410E75244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9FE0A03F02793A6BA8B391 /* Pods_FBDateFormatExample.framework */,
+				431288E6BF47D85B9CF62D1B /* Pods_FBDateFormatExample_FBDateFormatExampleUITests.framework */,
+				29108B4C6FF322BAF0AE2C3B /* Pods_FBDateFormatExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		169FB04A26DD2CE300C463CC = {
+			isa = PBXGroup;
+			children = (
+				169FB05526DD2CE300C463CC /* FBDateFormatExample */,
+				169FB06C26DD2CE800C463CC /* FBDateFormatExampleTests */,
+				169FB07726DD2CE900C463CC /* FBDateFormatExampleUITests */,
+				169FB05426DD2CE300C463CC /* Products */,
+				28EE9729C09D6C284C1391B3 /* Pods */,
+				08EC4165A738D88410E75244 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		169FB05426DD2CE300C463CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169FB05326DD2CE300C463CC /* FBDateFormatExample.app */,
+				169FB06926DD2CE800C463CC /* FBDateFormatExampleTests.xctest */,
+				169FB07426DD2CE900C463CC /* FBDateFormatExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169FB05526DD2CE300C463CC /* FBDateFormatExample */ = {
+			isa = PBXGroup;
+			children = (
+				169FB05626DD2CE300C463CC /* AppDelegate.swift */,
+				169FB05826DD2CE300C463CC /* SceneDelegate.swift */,
+				169FB05A26DD2CE300C463CC /* ViewController.swift */,
+				169FB05C26DD2CE300C463CC /* Main.storyboard */,
+				169FB05F26DD2CE800C463CC /* Assets.xcassets */,
+				169FB06126DD2CE800C463CC /* LaunchScreen.storyboard */,
+				169FB06426DD2CE800C463CC /* Info.plist */,
+			);
+			path = FBDateFormatExample;
+			sourceTree = "<group>";
+		};
+		169FB06C26DD2CE800C463CC /* FBDateFormatExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				169FB06D26DD2CE800C463CC /* FBDateFormatExampleTests.swift */,
+				169FB06F26DD2CE800C463CC /* Info.plist */,
+			);
+			path = FBDateFormatExampleTests;
+			sourceTree = "<group>";
+		};
+		169FB07726DD2CE900C463CC /* FBDateFormatExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				169FB07826DD2CE900C463CC /* FBDateFormatExampleUITests.swift */,
+				169FB07A26DD2CE900C463CC /* Info.plist */,
+			);
+			path = FBDateFormatExampleUITests;
+			sourceTree = "<group>";
+		};
+		28EE9729C09D6C284C1391B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C054C8A094502186DF7C83CC /* Pods-FBDateFormatExample.debug.xcconfig */,
+				A9049B1CB66E4F596A1B08E9 /* Pods-FBDateFormatExample.release.xcconfig */,
+				34E366366E79AF3654DC07B2 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig */,
+				4DD9EEF8E298DBA859F7CC41 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig */,
+				3069EB7C902AE2DA92979C1B /* Pods-FBDateFormatExampleTests.debug.xcconfig */,
+				DC9E8B2846FADDBCE8ABB064 /* Pods-FBDateFormatExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169FB05226DD2CE300C463CC /* FBDateFormatExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169FB07D26DD2CE900C463CC /* Build configuration list for PBXNativeTarget "FBDateFormatExample" */;
+			buildPhases = (
+				609B705DB7EAEC2486761A10 /* [CP] Check Pods Manifest.lock */,
+				169FB04F26DD2CE300C463CC /* Sources */,
+				169FB05026DD2CE300C463CC /* Frameworks */,
+				169FB05126DD2CE300C463CC /* Resources */,
+				72E7CA8EE550DD973823A7FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBDateFormatExample;
+			productName = FBDateFormatExample;
+			productReference = 169FB05326DD2CE300C463CC /* FBDateFormatExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169FB06826DD2CE800C463CC /* FBDateFormatExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169FB08026DD2CE900C463CC /* Build configuration list for PBXNativeTarget "FBDateFormatExampleTests" */;
+			buildPhases = (
+				48E1357B5C57ACAF4A906B06 /* [CP] Check Pods Manifest.lock */,
+				169FB06526DD2CE800C463CC /* Sources */,
+				169FB06626DD2CE800C463CC /* Frameworks */,
+				169FB06726DD2CE800C463CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169FB06B26DD2CE800C463CC /* PBXTargetDependency */,
+			);
+			name = FBDateFormatExampleTests;
+			productName = FBDateFormatExampleTests;
+			productReference = 169FB06926DD2CE800C463CC /* FBDateFormatExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169FB07326DD2CE900C463CC /* FBDateFormatExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169FB08326DD2CE900C463CC /* Build configuration list for PBXNativeTarget "FBDateFormatExampleUITests" */;
+			buildPhases = (
+				1E7BCDDE8D1223EE4E1F81C7 /* [CP] Check Pods Manifest.lock */,
+				169FB07026DD2CE900C463CC /* Sources */,
+				169FB07126DD2CE900C463CC /* Frameworks */,
+				169FB07226DD2CE900C463CC /* Resources */,
+				979C8FF5B45A5932EFEB0FD2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169FB07626DD2CE900C463CC /* PBXTargetDependency */,
+			);
+			name = FBDateFormatExampleUITests;
+			productName = FBDateFormatExampleUITests;
+			productReference = 169FB07426DD2CE900C463CC /* FBDateFormatExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169FB04B26DD2CE300C463CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					169FB05226DD2CE300C463CC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					169FB06826DD2CE800C463CC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 169FB05226DD2CE300C463CC;
+					};
+					169FB07326DD2CE900C463CC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 169FB05226DD2CE300C463CC;
+					};
+				};
+			};
+			buildConfigurationList = 169FB04E26DD2CE300C463CC /* Build configuration list for PBXProject "FBDateFormatExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169FB04A26DD2CE300C463CC;
+			productRefGroup = 169FB05426DD2CE300C463CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169FB05226DD2CE300C463CC /* FBDateFormatExample */,
+				169FB06826DD2CE800C463CC /* FBDateFormatExampleTests */,
+				169FB07326DD2CE900C463CC /* FBDateFormatExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169FB05126DD2CE300C463CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FB06326DD2CE800C463CC /* LaunchScreen.storyboard in Resources */,
+				169FB06026DD2CE800C463CC /* Assets.xcassets in Resources */,
+				169FB05E26DD2CE300C463CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FB06726DD2CE800C463CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FB07226DD2CE900C463CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E7BCDDE8D1223EE4E1F81C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBDateFormatExample-FBDateFormatExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E1357B5C57ACAF4A906B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBDateFormatExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		609B705DB7EAEC2486761A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBDateFormatExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E7CA8EE550DD973823A7FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979C8FF5B45A5932EFEB0FD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169FB04F26DD2CE300C463CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FB05B26DD2CE300C463CC /* ViewController.swift in Sources */,
+				169FB05726DD2CE300C463CC /* AppDelegate.swift in Sources */,
+				169FB05926DD2CE300C463CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FB06526DD2CE800C463CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FB06E26DD2CE800C463CC /* FBDateFormatExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FB07026DD2CE900C463CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FB07926DD2CE900C463CC /* FBDateFormatExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169FB06B26DD2CE800C463CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169FB05226DD2CE300C463CC /* FBDateFormatExample */;
+			targetProxy = 169FB06A26DD2CE800C463CC /* PBXContainerItemProxy */;
+		};
+		169FB07626DD2CE900C463CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169FB05226DD2CE300C463CC /* FBDateFormatExample */;
+			targetProxy = 169FB07526DD2CE900C463CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		169FB05C26DD2CE300C463CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169FB05D26DD2CE300C463CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		169FB06126DD2CE800C463CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169FB06226DD2CE800C463CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		169FB07B26DD2CE900C463CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		169FB07C26DD2CE900C463CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169FB07E26DD2CE900C463CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C054C8A094502186DF7C83CC /* Pods-FBDateFormatExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WY4TJYTZW4;
+				INFOPLIST_FILE = FBDateFormatExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedElserafy.FBDateFormatExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		169FB07F26DD2CE900C463CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9049B1CB66E4F596A1B08E9 /* Pods-FBDateFormatExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WY4TJYTZW4;
+				INFOPLIST_FILE = FBDateFormatExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedElserafy.FBDateFormatExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		169FB08126DD2CE900C463CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3069EB7C902AE2DA92979C1B /* Pods-FBDateFormatExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WY4TJYTZW4;
+				INFOPLIST_FILE = FBDateFormatExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedElserafy.FBDateFormatExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBDateFormatExample.app/FBDateFormatExample";
+			};
+			name = Debug;
+		};
+		169FB08226DD2CE900C463CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9E8B2846FADDBCE8ABB064 /* Pods-FBDateFormatExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WY4TJYTZW4;
+				INFOPLIST_FILE = FBDateFormatExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedElserafy.FBDateFormatExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBDateFormatExample.app/FBDateFormatExample";
+			};
+			name = Release;
+		};
+		169FB08426DD2CE900C463CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E366366E79AF3654DC07B2 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WY4TJYTZW4;
+				INFOPLIST_FILE = FBDateFormatExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedElserafy.FBDateFormatExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBDateFormatExample;
+			};
+			name = Debug;
+		};
+		169FB08526DD2CE900C463CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD9EEF8E298DBA859F7CC41 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WY4TJYTZW4;
+				INFOPLIST_FILE = FBDateFormatExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AhmedElserafy.FBDateFormatExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBDateFormatExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169FB04E26DD2CE300C463CC /* Build configuration list for PBXProject "FBDateFormatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FB07B26DD2CE900C463CC /* Debug */,
+				169FB07C26DD2CE900C463CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169FB07D26DD2CE900C463CC /* Build configuration list for PBXNativeTarget "FBDateFormatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FB07E26DD2CE900C463CC /* Debug */,
+				169FB07F26DD2CE900C463CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169FB08026DD2CE900C463CC /* Build configuration list for PBXNativeTarget "FBDateFormatExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FB08126DD2CE900C463CC /* Debug */,
+				169FB08226DD2CE900C463CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169FB08326DD2CE900C463CC /* Build configuration list for PBXNativeTarget "FBDateFormatExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FB08426DD2CE900C463CC /* Debug */,
+				169FB08526DD2CE900C463CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169FB04B26DD2CE300C463CC /* Project object */;
+}

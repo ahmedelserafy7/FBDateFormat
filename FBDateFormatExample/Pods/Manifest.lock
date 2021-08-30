@@ -1,0 +1,16 @@
+PODS:
+  - FBDateFormat (1.0.0)
+
+DEPENDENCIES:
+  - FBDateFormat (from `../FBDateFormat`)
+
+EXTERNAL SOURCES:
+  FBDateFormat:
+    :path: "../FBDateFormat"
+
+SPEC CHECKSUMS:
+  FBDateFormat: 380956dd92a5d2cca0512c55a807feb55e2269be
+
+PODFILE CHECKSUM: 79d19bf1078ebdecca3b4b40d4cf78ca16a738b2
+
+COCOAPODS: 1.11.0.beta.2

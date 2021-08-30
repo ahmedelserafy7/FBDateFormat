@@ -1,0 +1,6 @@
+framework module Pods_FBDateFormatExampleTests {
+  umbrella header "Pods-FBDateFormatExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

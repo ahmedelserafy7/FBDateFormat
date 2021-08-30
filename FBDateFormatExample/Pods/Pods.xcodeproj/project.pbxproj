@@ -1,0 +1,989 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DDE8EAFF627E423517F63D925454A0F /* Pods-FBDateFormatExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 929EA7151385CECB760792D1552BF3C1 /* Pods-FBDateFormatExample-dummy.m */; };
+		115851E2C40D91DDAED23F68D1020975 /* Pods-FBDateFormatExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5D935D0F4A9CB8E60B3BFEE658AE0B /* Pods-FBDateFormatExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B4DA586281570F98E52F6724D8F8DB /* FBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 765C201C3C2C8BDB460169C3AFF2E2F8 /* FBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35972E56259415355404DA068A6FD06C /* Pods-FBDateFormatExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4B439B5A6CF521E0E3D60CC57B40D5 /* Pods-FBDateFormatExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A05ADDED36D82439D93B8C53EC61B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3C18902F52E9F7FAB47571050C3FDCA1 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61FF1175297865D5B96EF0EF993B6B3 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-dummy.m */; };
+		3E797602F84B4F0420AD7B667D703327 /* Pods-FBDateFormatExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4338223B6F13018B7C426523740666 /* Pods-FBDateFormatExampleTests-dummy.m */; };
+		55734FBC50D2DAAA1B6E7619DE655ED0 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB0B16B8F6D74B878F2B37224486ACF /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CDDECFB3918E71038FBD1F76C6438D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7C62EDBAF1549F97F5411663E0E474A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C6BB448C64364A9BF0886F5171531B77 /* FBDateFormat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 423EAE69EEFA78CC01EFFD75D15A4880 /* FBDateFormat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4D2651A37CCF49A10931933A0CCBFBD /* FBDateFormat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB1742FA44C79ED0597E0372EA3BBA0 /* FBDateFormat-dummy.m */; };
+		D6765F70040F0A50935BCC74155DE707 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB102D73BAF0BF144C24814B8714265B /* DateFormat.swift */; };
+		D8E9D5E67337D5B52183FA0EF8D94834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13FC72A7BAB66C5D7816CBC1098B3705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0CCA5F221BB5D35A83A3406F9D2FD;
+			remoteInfo = FBDateFormat;
+		};
+		500DDCFE6A5C645253FEACB44925FD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0CCA5F221BB5D35A83A3406F9D2FD;
+			remoteInfo = FBDateFormat;
+		};
+		C1F5214CA985E310A85B2A1A8FA1DAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE19C88D249C5D38486EC950E5518662;
+			remoteInfo = "Pods-FBDateFormatExample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA6C549BD0942297F008B5F2E046D70 /* FBDateFormat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBDateFormat.debug.xcconfig; sourceTree = "<group>"; };
+		0E8A21E4783B622B7AD5109F5265CD70 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12F1EEB83B2025DDD45B4FB08A381456 /* FBDateFormat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FBDateFormat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		265E8118CBB2A4E76A6765F0D40BD9F5 /* Pods-FBDateFormatExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBDateFormatExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		2684A475F30E56CCCBD8CEA1A43342DA /* FBDateFormat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBDateFormat; path = FBDateFormat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB0B16B8F6D74B878F2B37224486ACF /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		3225E0A2BE48417EE355F34C7A024C9C /* Pods-FBDateFormatExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBDateFormatExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36FE4A7CF931C5668B95C77939FF98D2 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FBDateFormatExample-FBDateFormatExampleUITests"; path = Pods_FBDateFormatExample_FBDateFormatExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A21321E7D7217BE26073B420902F13A /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		423EAE69EEFA78CC01EFFD75D15A4880 /* FBDateFormat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBDateFormat-umbrella.h"; sourceTree = "<group>"; };
+		4B10DD4AE42BBDD19A0B8D3A8106B4C9 /* Pods-FBDateFormatExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FBDateFormatExampleTests.modulemap"; sourceTree = "<group>"; };
+		66257B1E38D2D62005FF4185F440A3CB /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		765C201C3C2C8BDB460169C3AFF2E2F8 /* FBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBDateFormat.h; path = FBDateFormat/FBDateFormat.h; sourceTree = "<group>"; };
+		862F9D53A71C973250414678DB5388F3 /* FBDateFormat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBDateFormat-Info.plist"; sourceTree = "<group>"; };
+		8B39E525EF490FFA56CC5948ECB92452 /* FBDateFormat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBDateFormat.release.xcconfig; sourceTree = "<group>"; };
+		90B07F6089C6DE0AC4EE783051FBDC13 /* Pods-FBDateFormatExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBDateFormatExample-frameworks.sh"; sourceTree = "<group>"; };
+		929EA7151385CECB760792D1552BF3C1 /* Pods-FBDateFormatExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBDateFormatExample-dummy.m"; sourceTree = "<group>"; };
+		984B266ACCFF1A12BB1EEC1A1EAEDE86 /* Pods-FBDateFormatExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FBDateFormatExample"; path = Pods_FBDateFormatExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD2E3560D3144BAD293C980A1D9D940 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A61FF1175297865D5B96EF0EF993B6B3 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		AC45BF93C855DC4EF7B012CA7E51BBB6 /* Pods-FBDateFormatExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBDateFormatExampleTests-Info.plist"; sourceTree = "<group>"; };
+		AD4338223B6F13018B7C426523740666 /* Pods-FBDateFormatExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBDateFormatExampleTests-dummy.m"; sourceTree = "<group>"; };
+		ADB1742FA44C79ED0597E0372EA3BBA0 /* FBDateFormat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBDateFormat-dummy.m"; sourceTree = "<group>"; };
+		AF4B439B5A6CF521E0E3D60CC57B40D5 /* Pods-FBDateFormatExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBDateFormatExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		B421049957C18B51020BDB1D271CAAD3 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCEE99586481C523106D60A4A3F4AC37 /* Pods-FBDateFormatExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBDateFormatExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF6FA17FB55585273304E85D05734D67 /* Pods-FBDateFormatExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBDateFormatExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8937FAA04BB4FA57DD611F8932F5EC8 /* Pods-FBDateFormatExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBDateFormatExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB102D73BAF0BF144C24814B8714265B /* DateFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		D1BD9FF8EB02A6CC5C13FAB8B506DA80 /* FBDateFormat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBDateFormat.modulemap; sourceTree = "<group>"; };
+		D9A922B51F38950BB6DF8621ADB3FCF4 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E07FCE4FED4A5343868B81995A08E58A /* Pods-FBDateFormatExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBDateFormatExample.release.xcconfig"; sourceTree = "<group>"; };
+		E233922432963BF93E233184579DE221 /* Pods-FBDateFormatExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FBDateFormatExample.modulemap"; sourceTree = "<group>"; };
+		E45A2EAECED708DD7CA6DC1DE1E1FEAB /* Pods-FBDateFormatExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBDateFormatExample.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5D935D0F4A9CB8E60B3BFEE658AE0B /* Pods-FBDateFormatExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBDateFormatExample-umbrella.h"; sourceTree = "<group>"; };
+		EAB467C4A2EAD864097B2C91F2475126 /* Pods-FBDateFormatExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBDateFormatExample-Info.plist"; sourceTree = "<group>"; };
+		EDD3BE364BBD4FFA28F3AAF9A220DD4E /* FBDateFormat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBDateFormat-prefix.pch"; sourceTree = "<group>"; };
+		F14F38CA618FD985E9A4B03647FCC3E0 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F16AF44B8C7F74DA9E68E1E57BAD6617 /* Pods-FBDateFormatExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBDateFormatExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBA3A1D46FE1845DC18E2A08368F0BB5 /* Pods-FBDateFormatExampleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FBDateFormatExampleTests"; path = Pods_FBDateFormatExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C056A601BA7B9CD391146CDD088DA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A05ADDED36D82439D93B8C53EC61B37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A8880AAE7C43B6B631CADB49BA818A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C62EDBAF1549F97F5411663E0E474A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E048BBEABA81454F6DAB3F7671E2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDDECFB3918E71038FBD1F76C6438D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71A3F75246758C37FAA2E23FE20E36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E9D5E67337D5B52183FA0EF8D94834 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ADF9BEB0A1ABE66930165D55DEDE7C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2684A475F30E56CCCBD8CEA1A43342DA /* FBDateFormat */,
+				984B266ACCFF1A12BB1EEC1A1EAEDE86 /* Pods-FBDateFormatExample */,
+				36FE4A7CF931C5668B95C77939FF98D2 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests */,
+				FBA3A1D46FE1845DC18E2A08368F0BB5 /* Pods-FBDateFormatExampleTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E0E1798ADC0EEA2719545A3DA53837 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8661CFFB517722D04C159905A4006A44 /* Pods-FBDateFormatExample */,
+				7D52F844CAFB17AE57F17B8288D8355B /* Pods-FBDateFormatExample-FBDateFormatExampleUITests */,
+				E92CFC281488D1EF9AB12D3E28F112E0 /* Pods-FBDateFormatExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		384BFD7F5E8EF821C1CB6018FAAFB3C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD9FF8EB02A6CC5C13FAB8B506DA80 /* FBDateFormat.modulemap */,
+				ADB1742FA44C79ED0597E0372EA3BBA0 /* FBDateFormat-dummy.m */,
+				862F9D53A71C973250414678DB5388F3 /* FBDateFormat-Info.plist */,
+				EDD3BE364BBD4FFA28F3AAF9A220DD4E /* FBDateFormat-prefix.pch */,
+				423EAE69EEFA78CC01EFFD75D15A4880 /* FBDateFormat-umbrella.h */,
+				0AA6C549BD0942297F008B5F2E046D70 /* FBDateFormat.debug.xcconfig */,
+				8B39E525EF490FFA56CC5948ECB92452 /* FBDateFormat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../FBDateFormatExample/Pods/Target Support Files/FBDateFormat";
+			sourceTree = "<group>";
+		};
+		3F0C72B701A9C684BE095D183B6C9CE5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CB102D73BAF0BF144C24814B8714265B /* DateFormat.swift */,
+			);
+			name = Source;
+			path = FBDateFormat/Source;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D52F844CAFB17AE57F17B8288D8355B /* Pods-FBDateFormatExample-FBDateFormatExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66257B1E38D2D62005FF4185F440A3CB /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.modulemap */,
+				B421049957C18B51020BDB1D271CAAD3 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-acknowledgements.markdown */,
+				3A21321E7D7217BE26073B420902F13A /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-acknowledgements.plist */,
+				A61FF1175297865D5B96EF0EF993B6B3 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-dummy.m */,
+				D9A922B51F38950BB6DF8621ADB3FCF4 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-frameworks.sh */,
+				9CD2E3560D3144BAD293C980A1D9D940 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-Info.plist */,
+				2FB0B16B8F6D74B878F2B37224486ACF /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-umbrella.h */,
+				F14F38CA618FD985E9A4B03647FCC3E0 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig */,
+				0E8A21E4783B622B7AD5109F5265CD70 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-FBDateFormatExample-FBDateFormatExampleUITests";
+			path = "Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests";
+			sourceTree = "<group>";
+		};
+		81957CF708A2658AAF385357ECF6971D /* FBDateFormat */ = {
+			isa = PBXGroup;
+			children = (
+				765C201C3C2C8BDB460169C3AFF2E2F8 /* FBDateFormat.h */,
+				F5B2A17A812B12456189D192BE237847 /* Pod */,
+				3F0C72B701A9C684BE095D183B6C9CE5 /* Source */,
+				384BFD7F5E8EF821C1CB6018FAAFB3C5 /* Support Files */,
+			);
+			name = FBDateFormat;
+			path = ../../FBDateFormat;
+			sourceTree = "<group>";
+		};
+		8661CFFB517722D04C159905A4006A44 /* Pods-FBDateFormatExample */ = {
+			isa = PBXGroup;
+			children = (
+				E233922432963BF93E233184579DE221 /* Pods-FBDateFormatExample.modulemap */,
+				3225E0A2BE48417EE355F34C7A024C9C /* Pods-FBDateFormatExample-acknowledgements.markdown */,
+				265E8118CBB2A4E76A6765F0D40BD9F5 /* Pods-FBDateFormatExample-acknowledgements.plist */,
+				929EA7151385CECB760792D1552BF3C1 /* Pods-FBDateFormatExample-dummy.m */,
+				90B07F6089C6DE0AC4EE783051FBDC13 /* Pods-FBDateFormatExample-frameworks.sh */,
+				EAB467C4A2EAD864097B2C91F2475126 /* Pods-FBDateFormatExample-Info.plist */,
+				EA5D935D0F4A9CB8E60B3BFEE658AE0B /* Pods-FBDateFormatExample-umbrella.h */,
+				E45A2EAECED708DD7CA6DC1DE1E1FEAB /* Pods-FBDateFormatExample.debug.xcconfig */,
+				E07FCE4FED4A5343868B81995A08E58A /* Pods-FBDateFormatExample.release.xcconfig */,
+			);
+			name = "Pods-FBDateFormatExample";
+			path = "Target Support Files/Pods-FBDateFormatExample";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D94EDF107AD095C65691DBCA6294F4CA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2ADF9BEB0A1ABE66930165D55DEDE7C4 /* Products */,
+				33E0E1798ADC0EEA2719545A3DA53837 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94EDF107AD095C65691DBCA6294F4CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81957CF708A2658AAF385357ECF6971D /* FBDateFormat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E92CFC281488D1EF9AB12D3E28F112E0 /* Pods-FBDateFormatExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B10DD4AE42BBDD19A0B8D3A8106B4C9 /* Pods-FBDateFormatExampleTests.modulemap */,
+				BCEE99586481C523106D60A4A3F4AC37 /* Pods-FBDateFormatExampleTests-acknowledgements.markdown */,
+				C8937FAA04BB4FA57DD611F8932F5EC8 /* Pods-FBDateFormatExampleTests-acknowledgements.plist */,
+				AD4338223B6F13018B7C426523740666 /* Pods-FBDateFormatExampleTests-dummy.m */,
+				AC45BF93C855DC4EF7B012CA7E51BBB6 /* Pods-FBDateFormatExampleTests-Info.plist */,
+				AF4B439B5A6CF521E0E3D60CC57B40D5 /* Pods-FBDateFormatExampleTests-umbrella.h */,
+				BF6FA17FB55585273304E85D05734D67 /* Pods-FBDateFormatExampleTests.debug.xcconfig */,
+				F16AF44B8C7F74DA9E68E1E57BAD6617 /* Pods-FBDateFormatExampleTests.release.xcconfig */,
+			);
+			name = "Pods-FBDateFormatExampleTests";
+			path = "Target Support Files/Pods-FBDateFormatExampleTests";
+			sourceTree = "<group>";
+		};
+		F5B2A17A812B12456189D192BE237847 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				12F1EEB83B2025DDD45B4FB08A381456 /* FBDateFormat.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		511FE11A815AD5EB7800BBD31D0E18D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B4DA586281570F98E52F6724D8F8DB /* FBDateFormat.h in Headers */,
+				C6BB448C64364A9BF0886F5171531B77 /* FBDateFormat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FD53F44D29082A08DE0A51FA6364A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55734FBC50D2DAAA1B6E7619DE655ED0 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3889082701C1D828D28A2293FE76F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115851E2C40D91DDAED23F68D1020975 /* Pods-FBDateFormatExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9ABAD2BEC726412D1120C7541D7F6B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35972E56259415355404DA068A6FD06C /* Pods-FBDateFormatExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09A9C9D56B81FBBA212EFFA33A6B1C31 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C48CC9A6EDC8B695DDD949F2C94C6D /* Build configuration list for PBXNativeTarget "Pods-FBDateFormatExample-FBDateFormatExampleUITests" */;
+			buildPhases = (
+				62FD53F44D29082A08DE0A51FA6364A2 /* Headers */,
+				D9B0B37F6F0D1D779CCA7806DA9E8ED5 /* Sources */,
+				74A8880AAE7C43B6B631CADB49BA818A /* Frameworks */,
+				BA219DB755057F6C9C9D7B4D9A873A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885AF44418DD850BA6FB106FEA37DCD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FBDateFormatExample-FBDateFormatExampleUITests";
+			productName = Pods_FBDateFormatExample_FBDateFormatExampleUITests;
+			productReference = 36FE4A7CF931C5668B95C77939FF98D2 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		29C0CCA5F221BB5D35A83A3406F9D2FD /* FBDateFormat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDEEED70EFDE8189EB32762ACBD8828A /* Build configuration list for PBXNativeTarget "FBDateFormat" */;
+			buildPhases = (
+				511FE11A815AD5EB7800BBD31D0E18D7 /* Headers */,
+				221A605AD44BB28F6AADD13EC7BCABC4 /* Sources */,
+				A1E048BBEABA81454F6DAB3F7671E2AC /* Frameworks */,
+				0F4CA85C0408B8B7DE74D60C49B19867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBDateFormat;
+			productName = FBDateFormat;
+			productReference = 2684A475F30E56CCCBD8CEA1A43342DA /* FBDateFormat */;
+			productType = "com.apple.product-type.framework";
+		};
+		57CFA50E6FDA8688559FDE416B3D96D3 /* Pods-FBDateFormatExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5735B9CB770D89A248D83CD2F3902FDF /* Build configuration list for PBXNativeTarget "Pods-FBDateFormatExampleTests" */;
+			buildPhases = (
+				A9ABAD2BEC726412D1120C7541D7F6B4 /* Headers */,
+				F53403D28777BD80621963BBDB67AB81 /* Sources */,
+				5C056A601BA7B9CD391146CDD088DA09 /* Frameworks */,
+				4E6700F0900A871C97198C0ACA2C6D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				458FCCAC80B30040376A1EC05909E1E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-FBDateFormatExampleTests";
+			productName = Pods_FBDateFormatExampleTests;
+			productReference = FBA3A1D46FE1845DC18E2A08368F0BB5 /* Pods-FBDateFormatExampleTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE19C88D249C5D38486EC950E5518662 /* Pods-FBDateFormatExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC37E983D330D9A1DBDEE115988D07E7 /* Build configuration list for PBXNativeTarget "Pods-FBDateFormatExample" */;
+			buildPhases = (
+				7B3889082701C1D828D28A2293FE76F9 /* Headers */,
+				4A6B979FC7AAD3A689DA7777FE7B221F /* Sources */,
+				F71A3F75246758C37FAA2E23FE20E36C /* Frameworks */,
+				956E7EA88B75717EEF220FB4298A8F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EEEDA59044C3EB65743CBFE0565A077 /* PBXTargetDependency */,
+			);
+			name = "Pods-FBDateFormatExample";
+			productName = Pods_FBDateFormatExample;
+			productReference = 984B266ACCFF1A12BB1EEC1A1EAEDE86 /* Pods-FBDateFormatExample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2ADF9BEB0A1ABE66930165D55DEDE7C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C0CCA5F221BB5D35A83A3406F9D2FD /* FBDateFormat */,
+				EE19C88D249C5D38486EC950E5518662 /* Pods-FBDateFormatExample */,
+				09A9C9D56B81FBBA212EFFA33A6B1C31 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests */,
+				57CFA50E6FDA8688559FDE416B3D96D3 /* Pods-FBDateFormatExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F4CA85C0408B8B7DE74D60C49B19867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6700F0900A871C97198C0ACA2C6D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956E7EA88B75717EEF220FB4298A8F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA219DB755057F6C9C9D7B4D9A873A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221A605AD44BB28F6AADD13EC7BCABC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6765F70040F0A50935BCC74155DE707 /* DateFormat.swift in Sources */,
+				D4D2651A37CCF49A10931933A0CCBFBD /* FBDateFormat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6B979FC7AAD3A689DA7777FE7B221F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDE8EAFF627E423517F63D925454A0F /* Pods-FBDateFormatExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B0B37F6F0D1D779CCA7806DA9E8ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C18902F52E9F7FAB47571050C3FDCA1 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53403D28777BD80621963BBDB67AB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E797602F84B4F0420AD7B667D703327 /* Pods-FBDateFormatExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EEEDA59044C3EB65743CBFE0565A077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBDateFormat;
+			target = 29C0CCA5F221BB5D35A83A3406F9D2FD /* FBDateFormat */;
+			targetProxy = 13FC72A7BAB66C5D7816CBC1098B3705 /* PBXContainerItemProxy */;
+		};
+		458FCCAC80B30040376A1EC05909E1E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FBDateFormatExample";
+			target = EE19C88D249C5D38486EC950E5518662 /* Pods-FBDateFormatExample */;
+			targetProxy = C1F5214CA985E310A85B2A1A8FA1DAEB /* PBXContainerItemProxy */;
+		};
+		885AF44418DD850BA6FB106FEA37DCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBDateFormat;
+			target = 29C0CCA5F221BB5D35A83A3406F9D2FD /* FBDateFormat */;
+			targetProxy = 500DDCFE6A5C645253FEACB44925FD8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F2A3EF18DE24EAAADCF8522DD9604D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39E525EF490FFA56CC5948ECB92452 /* FBDateFormat.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBDateFormat/FBDateFormat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBDateFormat/FBDateFormat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FBDateFormat/FBDateFormat.modulemap";
+				PRODUCT_MODULE_NAME = FBDateFormat;
+				PRODUCT_NAME = FBDateFormat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		391B4162018D6BABF986591363B37085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA6C549BD0942297F008B5F2E046D70 /* FBDateFormat.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBDateFormat/FBDateFormat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBDateFormat/FBDateFormat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FBDateFormat/FBDateFormat.modulemap";
+				PRODUCT_MODULE_NAME = FBDateFormat;
+				PRODUCT_NAME = FBDateFormat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5152737327A802CC8EEBB3D540363E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07FCE4FED4A5343868B81995A08E58A /* Pods-FBDateFormatExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E6A3934E68D9930159EAC2C173AFCFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45A2EAECED708DD7CA6DC1DE1E1FEAB /* Pods-FBDateFormatExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBDateFormatExample/Pods-FBDateFormatExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9CD84A3C371D910540660198425B364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16AF44B8C7F74DA9E68E1E57BAD6617 /* Pods-FBDateFormatExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBDateFormatExampleTests/Pods-FBDateFormatExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBDateFormatExampleTests/Pods-FBDateFormatExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF115D20AC3A8569E62C1994FED24F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8A21E4783B622B7AD5109F5265CD70 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB8EF9B3DDFED0F8C6F1EEEB8A71CFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6FA17FB55585273304E85D05734D67 /* Pods-FBDateFormatExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBDateFormatExampleTests/Pods-FBDateFormatExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBDateFormatExampleTests/Pods-FBDateFormatExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9BCB70C9736E5DDF1E6BF08EB88FEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14F38CA618FD985E9A4B03647FCC3E0 /* Pods-FBDateFormatExample-FBDateFormatExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBDateFormatExample-FBDateFormatExampleUITests/Pods-FBDateFormatExample-FBDateFormatExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5735B9CB770D89A248D83CD2F3902FDF /* Build configuration list for PBXNativeTarget "Pods-FBDateFormatExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8EF9B3DDFED0F8C6F1EEEB8A71CFAA /* Debug */,
+				9CD84A3C371D910540660198425B364F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC37E983D330D9A1DBDEE115988D07E7 /* Build configuration list for PBXNativeTarget "Pods-FBDateFormatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6A3934E68D9930159EAC2C173AFCFC /* Debug */,
+				5152737327A802CC8EEBB3D540363E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C48CC9A6EDC8B695DDD949F2C94C6D /* Build configuration list for PBXNativeTarget "Pods-FBDateFormatExample-FBDateFormatExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BCB70C9736E5DDF1E6BF08EB88FEE4 /* Debug */,
+				BF115D20AC3A8569E62C1994FED24F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDEEED70EFDE8189EB32762ACBD8828A /* Build configuration list for PBXNativeTarget "FBDateFormat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391B4162018D6BABF986591363B37085 /* Debug */,
+				1F2A3EF18DE24EAAADCF8522DD9604D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
