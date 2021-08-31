@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://i.imgur.com/0UCgRum.gif" alt="fbdateformat">
+  <img src="https://i.imgur.com/ohkxEqD.gif" alt="fbdateformat">
 </a>
 
 Welcome to FBDateFormat, an algorithmic library. I've built this library to help developers use Facebook date format in thier application with hassle-free conversion.
