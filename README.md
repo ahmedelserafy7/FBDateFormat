@@ -128,7 +128,7 @@ print(timeAgo.displayFBDateFormat())
 
 ## Usage
 
-1. First thing first, all you have to do is to import it:
+1. First things first, all you have to do is to import it:
 
 ```swift
 import FBDateFormat
